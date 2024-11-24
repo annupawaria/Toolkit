@@ -20,10 +20,10 @@ const router = createBrowserRouter([
         path: '/cart',
         element: <Cart />,
       },
-      {
-        path: '/wishlist',
-        element: <Wishlist />,   
-      }
+      // {
+      //   path: '/wishlist',
+      //   element: <Wishlist />,   
+      // }
     ],
   },
 ])

@@ -19,11 +19,11 @@ export default function Header() {
           
           <div className="cart-items-count">{cartItems.reduce((acc,curr)=>acc+curr.quantity,0)}</div>
         </Link>
-        <Link className="cart-icon" to="/wishlist">
+        {/* <Link className="cart-icon" to="/wishlist">
       
           <img src={wishlistIcon} alt="cart-icon"/>
           <div className="cart-items-count">{cartItems.reduce((acc,curr)=>acc+curr.quantity,0)}</div>
-        </Link>
+        </Link> */}
       </div>
     </header>
   )
